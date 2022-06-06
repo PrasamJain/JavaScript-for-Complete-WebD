@@ -44,12 +44,3 @@ var factorial2 = function (n) {
   return ans;
 };
 console.log(factorial2);
-
-//we can pass function as a argument's : -
-
-    function ncr(n,r,factorial)
-    {
-      return factorial(n)/factorial(r)*factorial(n-r);
-    }
-    console.log(ncr(5,2,factorial));  
-
