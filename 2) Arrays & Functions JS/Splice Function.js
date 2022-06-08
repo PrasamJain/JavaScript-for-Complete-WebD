@@ -15,33 +15,10 @@ ar.splice(1);        // if we give only one argument then it delete whole elemen
 
 ar = [2, 3, 4, 5, 6, 7];
 
-ar.splice(3, 0, 50); // at index 3 delete nothig and insert 50 at index 3.
-ar.splice(3, 0, 10, 20, 30, 40); //adding more than one elements staring from index 3 onword
+ar.splice(3, 0, 50); 
+// at index 3 delete nothig and insert 50 at index 3.
 
 
-// ForEach  :      iterating over an array using "ForEach" method......................
+ar.splice(3, 0, 10, 20, 30, 40); 
+//adding more than one elements staring from index 3 onword
 
-var ar = [1,2,3,4,5,6,7,8,9,10];
-
-/*for(var i=0;i<ar.length;i++)
-  {
-    console.log(ar[i]);
-  }
-*/
-
-function display(data)
-{
-  console.log(data); 
-}
-
-ar.forEach(display);
-
-
-/*
-  ****************structure of ForEach method somthing like that :-
-  for(var i=0;i<ar.length;i++)
-  {
-    display(ar[i]);
-  }
-  insted of For loop - we use forEach method.
-*/
