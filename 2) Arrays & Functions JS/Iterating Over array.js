@@ -15,7 +15,6 @@ function display(data)
 
 ar.forEach(display);
 
-
 /*
   ****************structure of ForEach method somthing like that :-
   for(var i=0;i<ar.length;i++)
