@@ -23,5 +23,3 @@ obj.marks = 80;
 /*   COMPARE two objects     */
 obj == student     //true because it compare the location of objects i.r address pointing to it
 obj === student    //true
-
-
