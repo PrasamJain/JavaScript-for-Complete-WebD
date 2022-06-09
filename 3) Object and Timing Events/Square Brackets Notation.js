@@ -6,7 +6,7 @@ console.log(student["marks"]);     //95
 
 //if we define key "id" like this "-id": i.e hyphen or any other (#,%,$,&....etc) before name then it will not access through dot notation
 
-//         student.-id = 10    //error
+//      student.-id = 10    //error
 //instead we use square brackets notation like this -
 student["-id"] = 10;
 
