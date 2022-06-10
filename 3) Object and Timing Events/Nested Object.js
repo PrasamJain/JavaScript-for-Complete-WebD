@@ -16,4 +16,3 @@ var student =
       student.address["state"]        // MP
       student["address"].state         // MP
       student["address"]["state"]         // MP
-	  
