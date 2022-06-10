@@ -7,13 +7,16 @@ var student = {
 	sem : 5
 };
 
+// 1) using loop method
+
 for(var x in student){
   //console.log(x);     //it iterate over keys...
   //console.log(student[x]);      // iterate only values
   console.log(x , student[x]);    //both keys : values
 }
 
-// also get all keys using "Object.keys()" function & pass obj 
+/ 
+//2) also get all keys using "Object.keys()" function & pass obj 
 
 var x = Object.keys(student);
 console.log(x)   
