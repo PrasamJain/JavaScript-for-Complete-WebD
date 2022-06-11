@@ -1,6 +1,6 @@
 // with the help Object timing events in JS we execute functions in different intervals of time
 
-// 1) setTimeout(func_name , time (ms))      appeare after certain time
+// 1) SYNTAX : setTimeout(func_name , time (ms))      appeare after certain time
 
 console.log("0sec");
 
@@ -10,7 +10,7 @@ function display(){
 
 setTimeout(display , 5000);
 
-// 2) setInterval(func_name , interval(ms)) 
+// 2) SYNTAX : setInterval(func_name , interval(ms)) 
 
 //setInterval(display , 3000);      // repeat after every 3 sec
 
@@ -34,7 +34,7 @@ function time(){
 
 //setInterval(time , 10);
 
-//  3) clearInterval(instance)       -  to stop the timer
+//  3) SYNTAX : clearInterval(instance)       -  to stop the timer
 
 var sec = 1;
 function time(){
