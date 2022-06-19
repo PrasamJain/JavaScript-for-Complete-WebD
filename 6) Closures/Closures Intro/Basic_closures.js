@@ -1,4 +1,4 @@
-// Intro too closures
+// Intro too closures....
 
 // Closures is a concept where inner funtion preserve the scope chain of outer function.
 
