@@ -1,6 +1,6 @@
 // DOMS - Document Object model
 /*
-    their are different-different objects are present in documents
+    Their are different-different objects are present in documents and Windows and many more...
     like -
     
       DOCUMENT: corresponding to HTML
@@ -12,9 +12,9 @@
             
       WINDOW:
       
-            window.alert       //for notification
-            window.screen     //deals with heigth,width etc
-            window.location    // to get the current page URL
+            window.alert          //for notification
+            window.screen         //deals with heigth,width etc
+            window.location       // to get the current page URL
             window.document       // this will access the above document
             " NOTE : document OR window.document are same " 
 */
