@@ -1,0 +1,13 @@
+/* this is css file to give css properties to main html page */
+/* we import this file also in our main html file */
+
+
+#btn1{
+      color: red;
+      background-color: yellow;
+    }
+
+#btn2{
+      color: darkBlue;
+      background-color: cyan;
+    }
