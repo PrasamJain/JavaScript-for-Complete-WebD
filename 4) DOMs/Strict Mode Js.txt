@@ -1,0 +1,30 @@
+#STRICT MODE IN JS
+
+The strict mode was introduced in ECMAScript 5. It is a way to add a strict checking in JavaScript that would make fewer mistakes.
+Strict mode introduces several restrictions to the JavaScript code like eliminates some silent errors by throwing errors.
+
+JavaScript allows strict mode code and non-strict mode code to coexist. So you can add your new JavaScript code in strict mode in old JavaScript files.
+
+You can introduce a strict mode in your JavaScript code by writing this simple statement -
+	'use strict'; OR "use strict";
+
+You can apply strict mode to an entire script or to individual function -
+	● Write this at the top of the whole script to apply strict mode globally.
+	● Or write it inside functions to apply it to a particular function only.
+
+Eg., you have a function as -
+
+		function abc(a, a) {
+		console.log(a + a);
+		}
+		abc(10, 20);
+
+The above code will print 40 on the console, whereas if you use strict mode as -
+
+		function abc(a, a) {
+		'use strict';
+		console.log(a + a);
+		}
+		abc(10, 20);
+
+This code will produce an error - 'SyntaxError: duplicate formal argument a'.
