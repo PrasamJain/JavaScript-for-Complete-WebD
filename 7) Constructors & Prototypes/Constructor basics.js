@@ -15,10 +15,12 @@ console.log(student2);
 
 // In this above code we make a object student and setting its values then returning them.
 // Js provides a method as constructor,
+
 // we don't create an objects but we create a constructor using 'new' keyword. and call the method as constructor. 
 // JS engine automatic create an object & returning them to you, instead of writting manually.
 
-function createStudent(name , roll , marks){
+function createStudent(name , roll , marks)
+{
   // we don't create object so we can't write student.*  Instead we use "this".*
   this.name = name;
   this.roll = roll;
