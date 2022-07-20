@@ -21,7 +21,7 @@ demo2();
 // if we use "strict mode" then output of both the above case is - undefined.
 
 
-// way 2 :- make object and then calling the function -----------------------------------------------
+// way 2 :- make object and then calling the function ---------------------------------------------------
 var obj = {
   'temp' : 12,
   'display' : function(){
@@ -42,3 +42,4 @@ demo.call(obj,5,7);   //pass any object & arguments that you have created. Now t
 demo2.apply(obj);   
 
 //so using strict mode also, you can use this in funciton which is not refer to window object.
+
