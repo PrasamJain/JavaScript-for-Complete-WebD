@@ -1,20 +1,20 @@
 // globle scpoe
 
-var name = "file2";
-console.log(name);
+var fileName = "file2";
+console.log(fileName);
 
 
 // make funtion scope
 
 function print2(){
-    var name = "file2";
-console.log(name);
+    var fileName = "file2";
+console.log(fileName);
 }
 print2();
 
 //IIFE - make function expression instead of giving name to it
 
 (function(){
-    var name = "file2";
-    console.log(name);
+    var fileName = "file2";
+    console.log(fileName);
 })();
