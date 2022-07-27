@@ -52,7 +52,7 @@ console.log(v1);
 // so it not create a multiple copies of same function & multiple objects use them seperatly. Memory Save!!
 console.log(v1.getPrice());    //10000
 
-//------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------------------------------------------------
 
 // If we add same property to all objects them prototype are usefull i.e you will assign property at run time.
 // you will also assign property to individual object also.
